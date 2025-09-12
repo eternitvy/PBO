@@ -1,8 +1,7 @@
 package Tugas;
-
 public class Demo {
     public static void main(String[] args) {
-        Buku buku = new Buku("Hujan", "Tere Liye", "978-602-032-478-4", 320);
+        Buku buku = new Buku("Hujan", "Tere Liye", 320);
         Ransel ransel = new Ransel("Reebok", "Hijau");
         Hoodie hoodie = new Hoodie("Coklat", "Polyester");
         Laptop laptop = new Laptop("Macbook", 8);
